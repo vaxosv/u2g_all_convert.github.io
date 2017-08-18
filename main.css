@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: none;
+    /*  outline: none;*/
+    list-style-type: none;
+    box-sizing: border-box;
+    outline: none;
+    ;
+}
+
+input[type=reset],
+input[type=submit],
+input[type=button],
+button {
+    cursor: pointer;
+}
+
+html,
+body,
+.body {
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    color: inherit;
+}
+
+body {
+    ackground-color: #292929;
+}
+
+.body {
+    margin: 0 auto;
+    padding-top: 20px;
+    background-color: #292929;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.header span {
+    color: #eb7f14;
+    font-size: 40px;
+}
+
+
+.main_midd {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_midd_1 {
+    width: 50%;
+    padding-top: 13px;
+}
+
+.main_midd_2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: flex-start;
+    padding-left: 57px;
+}
+
+.midd {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-end;
+}
+
+.midd_1 {
+    margin-bottom: 18px;
+    width: 46%;
+    position: relative;
+    overflow: hidden;
+}
+
+.midd_1 label {
+    position: absolute;
+    color: #eb7f14;
+    top: -2px;
+    left: 35px;
+    font-size: 20px;
+    transition: transform 800ms ease,
+    font-size 800ms ease;
+}
+
+input {
+    background-color: white;
+    height: 60px;
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 20px;
+    color: #4f2906;
+    font-weight: 700;
+    border-top-right-radius: 4%;
+    border-top-left-radius: 4%;
+    font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+}
+
+input:focus~label {
+    transform: translate(-15px, -1px);
+    font-size: 15px;
+}
+
+.xazi {
+    width: 0px;
+    height: 5px;
+    background-color: #eabe3a;
+    transition: width 1000ms ease;
+    position: absolute;
+    z-index: 4;
+    top: 55px;
+    left: -1px;
+}
+
+input:focus~.xazi {
+    width: 500px;
+}
+
+.qalaqi{
+    margin-right: 15%;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 4%;
+    width: 300px;
+}
+
+
+
+
+
+.button_cntaner {
+    display: flex;
+    margin-top: 20px;
+    justify-content: flex-end;
+}
+
+button:before {
+    content: '';
+    height: inherit;
+    width: 40px;
+    display: block;
+    position: absolute;
+    background-color: #c46513;
+    left: -17px;
+    top: 0px;
+    border-radius: 50%;
+}
+
+button {
+    width: 250px;
+    height: 40px;
+    color: #ffe3d6;
+    background-color: #c46513;
+    position: relative;
+    padding-bottom: 9px;
+}
+
+button:after {
+    content: '';
+    height: inherit;
+    width: 40px;
+    display: block;
+    position: absolute;
+    background-color: #c46513;
+    right: -17px;
+    top: 0px;
+    border-radius: 50%;
+}
+
+#pasuxi,
+#larshi_gadayvana {
+    font-size: 60px;
+    color: red;
+}
+
+.tanxa {
+    display: flex;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
